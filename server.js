@@ -38,9 +38,13 @@ res.json(deletelNote);
 // getting Htmls
 app.get("/", function(req, res){
   res.sendFile(path.join(__dirname, "./Develop/public/index.html"));
-})
+});
 
 app.get("/", function(req, res){
   res.sendFile(path.join(__dirname, "./Develop/public/notes.html"));
-})
-app.listen(3000)
+});
+
+
+app.listen(3000, () => {
+console.log("The server is running on port 3000")
+});
