@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const fs = require("fs");
-const util = require("util");
 const notes = require("./Develop/db/db.json");
 const path = require("path")
 const publicDirectoryPath = path.join(__dirname, "./Develop/public");
