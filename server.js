@@ -33,4 +33,14 @@ const notes = Json.parse(fs.readFileSync("./Develop/db/db.json"));
 const deletelNote = notes.filter((removeNote) => removeNote.id !== req.parse.id);
 res.json(deletelNote);
 });
+
+
+// getting Htmls
+app.get("/", function(req, res){
+  res.sendFile(path.join(__dirname, "./Develop/public/index.html"));
+})
+
+app.get("/", function(req, res){
+  res.sendFile(path.join(__dirname, "./Develop/public/notes.html"));
+})
 app.listen(3000)
