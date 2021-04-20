@@ -1,9 +1,3 @@
-
-https://user-images.githubusercontent.com/74753345/115323628-4e14e000-a13d-11eb-97a2-2fcd293352b6.mp4
-
-
-https://user-images.githubusercontent.com/74753345/115323676-608f1980-a13d-11eb-90e1-8c72dc15d919.mp4
-
 # Note-Taker
 create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
@@ -48,7 +42,7 @@ The following images show the web application's appearance and functionality:
 
 
 ## Demo video
-
+https://user-images.githubusercontent.com/74753345/115323628-4e14e000-a13d-11eb-97a2-2fcd293352b6.mp4
 
 ## Review
 
