@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/74753345/115323628-4e14e000-a13d-11eb-
 ## Review
 
 * The URL of the functional, deployed application.
-
+https://raginee-note-taker.herokuapp.com
 
 * The URL of the GitHub repository. 
 https://github.com/ru14/Note-Taker
