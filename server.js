@@ -5,6 +5,7 @@ const notes = require("./Develop/db/db.json");
 const path = require("path")
 const publicDirectoryPath = path.join(__dirname, "./Develop/public");
 
+const PORT = process.env.PORT || 3000
 app.use(express.urlencoded({ extended: true})) ;
 app.use(express.json());
 app.use(express.static(publicDirectoryPath));
@@ -51,6 +52,6 @@ app.get("/notes", function(req, res){
 });
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
 console.log("The server is running on port 3000")
 });
